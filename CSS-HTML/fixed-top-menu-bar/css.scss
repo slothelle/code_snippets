@@ -1,0 +1,33 @@
+// Replace SASS variables with your choice of colors and sizes
+
+nav {
+  position: fixed;
+  background-color: $background-color;
+  width: 100%;
+  top: 3px;
+  left: 0px;
+  padding: $nav-spacing;
+  font-size: $small-font;
+  border-top: 3px solid $accent-color-main;
+}
+
+.nav {
+  display: inline;
+  margin: 0;
+  ul {
+    padding: 0px;
+  }
+  li {
+    padding-right: $nav-spacing;
+    padding-left: $nav-spacing;
+  }
+  a {
+    color: $text-color-main;
+    font-weight: 400;
+    padding: 5px;
+  }
+  a:hover {
+    background-color: $accent-color-main;
+    padding: 5px;
+  }
+}

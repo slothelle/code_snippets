@@ -1,0 +1,11 @@
+/ This is only the snippet required if used in conjunction with the CSS
+/ Taken from a Rails app
+/ Written in Slim
+
+  body
+    nav
+      ul.nav
+        li.nav link_to "Home", root_path
+        li.nav = link_to "About", page_path("about")
+        li.nav = link_to "Contact", page_path("contact")
+        li.nav = link_to "Usage", page_path("usage")
